@@ -54,7 +54,7 @@ function createHomeLayout() {
                 UI.createElement('section', { class: 'box' }, [
                     UI.createElement('a', { href: 'postForm.html', class: 'btn ' }, 'Create Post'),
                     UI.createElement('h2', { class: '_title' }, 'Posts'),
-                    UI.createElement('div', { id: 'postsContainer' }) // This is where posts will appear
+                    UI.createElement('div', { id: 'postsContainer' }) 
                 ]),
                 UI.createElement('footer', { class: 'footer' }, 'footer content here'),
             ]),
